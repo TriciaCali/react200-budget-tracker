@@ -19,7 +19,7 @@ export default class IncomeEntries extends React.Component {
                             />
                         </div>
                         <div className='form-group'>
-                            <span classNam='input-group-addon'>$</span>
+                            <span className='input-group-addon'>$</span>
                             <input 
                             type="text"
                             className='form-control'
