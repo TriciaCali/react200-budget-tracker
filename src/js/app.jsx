@@ -3,6 +3,14 @@ import IncomeEntries from './components/IncomeEntries/IncomeEntries';
 import ExpenseEntries from './components/ExpenseEntries/ExpenseEntries';
 import Summary from './components/Summary/Summary';
 
+//++++  Recap of LifeCycle of React-Redux implementation  +++++
+
+/* Element's onChange fires the handleChange method
+HandleChange dispatches an action-created action
+	A Reducer catches the action and updates the store
+		connect() function updates a component by it's props
+			The component rerenders and now reflects the new state */
+
 export default class App extends React.Component {
   render() {
     return (
