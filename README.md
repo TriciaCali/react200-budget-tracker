@@ -2,7 +2,7 @@
 
 A bare bones react starter set of files
 
-## Setup
+### Setup
 
 ```
 npm install
@@ -14,3 +14,4 @@ npm run build
 ```
 npm start
 ```
+
