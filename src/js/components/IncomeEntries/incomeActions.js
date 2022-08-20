@@ -1,7 +1,7 @@
 //Action Creators
 export function updateIncomeDescription(description){
     return{
-        type: 'UPDATE_INCOME_DESCRIPITON',
+        type: 'UPDATE_INCOME_DESCRIPTION',
         payload: { description }
     };
 }

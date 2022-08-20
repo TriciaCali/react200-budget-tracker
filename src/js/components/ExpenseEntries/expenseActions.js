@@ -1,7 +1,7 @@
 //Action Creators
 export function updateExpenseDescription(description){
     return{
-        type: 'UPDATE_EXPENSE_DESCRIPITON',
+        type: 'UPDATE_EXPENSE_DESCRIPTION',
         payload: { description }
     };
 }

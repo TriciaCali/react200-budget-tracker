@@ -41,7 +41,6 @@ export default class ExpenseEntries extends React.Component {
   render() {
     // These values were provided by connect()
     const { description, amount, lineItems } = this.props;
-    console.log('ln44: ',lineItems)
     return (
       <div className='card border-danger mb-3'>
         <div className='card-header text-white bg-danger'>Expense Entries</div>
